@@ -21,8 +21,8 @@ const username = faker.internet.userName({firstName: firstname, lastName:lastnam
         <img :src= "faker.image.urlLoremFlickr({category: 'drummers'})" class="rounded-t-xl" />
   <div class="p-4"> 
    <p class="mb-2 text-2xl font-bold">{{ fullname }}</p>
-   <p class="mb-3 font-normal text-gray-700"> {{ job_title }}</p>
-   <p class="mb-3 font-normal text-gray-700"> {{ bio }}</p>
+   <p class="mb-3 font-normal text-green-700"> {{ job_title }}</p>
+   <p class="mb-3 font-normal text-green-700"> {{ bio }}</p>
     </div> 
 </div> 
 </RouterLink>
